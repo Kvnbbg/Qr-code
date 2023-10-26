@@ -12,27 +12,12 @@ html {
 }
 
 body {
-  position: absolute;
   background-color: var(--white);
-  line-height: 1.5;
-  font-weight: 400;
-  letter-spacing: 0.5px;
   text-align: center;
-}
-
-main {
-  padding: 32px 0;
-  position: relative;
-}
-
-div {
   align-items: center;
-  text-align: center;
 }
-
 footer {
-  margin-top: 100px;
-  position: relative;
+  margin-top: 20px;
   align-items: center;
   text-align: center;
 }
@@ -40,12 +25,12 @@ footer {
 /* Layers */
 #back-layer {
   z-index: 1;
-  width: 100px;
-  height: 100px;
-
+  width: 680px;
+  height: 650px;
+  translate: (50%, 50%);
   background-color: var(--light-gray);
-  margin: 100px 100px 0 100px;
-  border-radius: 5%;
+  margin: 10% auto;
+  border-radius: 2%;
   box-shadow: 0 10px 10px 0px rgba(0, 0, 0, 0.9);
 }
 
