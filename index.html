@@ -1,67 +1,57 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <!-- Favicon -->
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./images/favicon-32x32.png"
-    />
-
-    <!-- Title -->
-    <title>Front-end Style Guide</title>
-
-    <!-- Stylesheets -->
+    <title>QR CODE</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
     <link rel="stylesheet" href="./css/styles.css" />
-
-    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200&display=swap"
-      rel="stylesheet"
-    />
-
-    <!-- lastest version of Tailwind CSS from the CDN -->
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.7/tailwind.min.css" integrity="sha512-+5zjZKjz9yJzvJZ4LJ4fJzJ5fJ8zJ9J2Z5WfJZz8LZV8JZz9zZJ1zXJZz7LZvzjz1JzZJzJzJzJzJzJzJzJzJw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200&display=swap" rel="stylesheet" />
   </head>
   <body>
-    <main>
-      <div
-        id="back-layer"
-      >
-      <!-- Mock up
-        <section
-          id="first-layer"
-          class="w-full md:w-3/4 lg:w-1/2 xl:w-2/5 rounded-lg shadow-lg p-8 md:p-12"
-        >
-          <img src="./images/image-qr-code.png" alt="QR code" class="mx-auto" />
-          <article class="mt-8">
-            <h1
-              class="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 text-center"
-            >
-              Improve your front-end skills by building projects
-            </h1>
-            <p class="text-lg md:text-xl lg:text-2xl text-gray-500 text-center">
-              Scan the QR code to visit Frontend Mentor and take your coding
-              skills to the next level
-            </p>
-          </article>
-        </section>
-      Mock up end -->
+<!-- Header -->
+<header role="banner" class="layer">
+  <!-- Carousel -->
+  <div class="carousel">
+    <img class="carousel-item" src="./design/desktop-preview.jpg" alt="QR code" />
+    <img class="carousel-item" src="./design/mobile-design.jpg" alt="QR code mobile" />
+  </div>
+
+  <!-- Header text -->
+  <h1 class="header-layer">
+    QR CODE CHALLENGE <br><span style="color: red; font-weight: bold;">DEV MODE VIEW</span>
+  </h1>
+</header>
+<!-- Main -->
+    <main role="main">
+      <div class="back-layer">
+        <div class="first-layer">
+
+          <!-- Invisible layer -->
+          <article class="layer">
+            <img src="./images/image-qr-code.png" alt="QR code"/>
+              <h2>
+                Improve your front-end skills by building projects
+              </h2>
+              <p>
+                Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+              </p>
+              <br>
+            </article>
+  
+
+        </div>
       </div>
     </main>
-    <footer>
-      <div class="attribution text-center text-gray-500 text-sm mt-8">
-        Challenge by
-        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-          >Frontend Mentor</a
-        >. Coded by <a href="#">Your Name Here</a>.
+
+  <!-- Footer -->
+    <footer role="info">
+      <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="https://ko-fi.com/kvnbbg">Kevin Marville</a>.
       </div>
     </footer>
+    <script src="./js/main.js"></script>
   </body>
 </html>

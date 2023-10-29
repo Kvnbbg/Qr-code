@@ -81,8 +81,8 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ### Useful resources
 
-- [resource 1: Tailwind docs](https://v2.tailwindcss.com/docs/) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [resource 2: google font](https://fonts.google.com/specimen/Outfit) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [resource 1: CSS Doc](https://developer.mozilla.org/en-US/docs/Web/CSS) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
+- [resource 2: Google fonts](https://fonts.google.com/specimen/Outfit) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
 
 ## Author
 
