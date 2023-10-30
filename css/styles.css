@@ -2,10 +2,12 @@
 html {
   font-size: 62.5%;
   font-family: "Outfit", sans-serif;
-  box-sizing: border-box;
   margin: 0%;
   padding: 0%;
-  display: flex;
+  display: absolute;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -13,14 +15,8 @@ html {
 }
 
 body {
-  background-color: darkslateblue;
-  margin: 5% 0% 5% 0%;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+  background-color: white;
+  scroll-behavior: smooth;
 }
 
 img {
@@ -38,9 +34,8 @@ body::-webkit-scrollbar {
 /* Layers */
 .back-layer {
   margin: auto;
-  width: 320px;
+  width: 100%;
   background-color: var(--white);
-  padding: 15px 100px 15px 100px;
   position: relative;
   height: auto;
   display: flex;
@@ -49,17 +44,15 @@ body::-webkit-scrollbar {
   align-items: center;
   text-align: center;
   border-radius: 1%;
-  box-shadow: 150px 150px 150px 150px rgba(0, 0, 0, 0.2);
 }
 
 .middle-layer {
   background-color: var(--light-gray);
   border-radius: 1%;
-  box-shadow: 150px 150px 150px 150px rgba(0, 0, 0, 0.2);
   height: auto;
   width: 300px;
-  padding: 15px 60px 15px 60px;
-  margin-top: 20px;
+  padding: 15% 100% 15% 100%;
+  margin: 20% auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -69,11 +62,11 @@ body::-webkit-scrollbar {
 
 .first-layer {
   background-color: var(--white);
+  z-index: auto;
   border-radius: 5%;
   height: auto;
   width: 50px;
   padding: 15px;
-  box-shadow: 0 10px 10px 0px rgba(0, 0, 0, 0.1);
   margin-top: 20px;
   display: flex;
   flex-direction: column;
@@ -97,11 +90,42 @@ body::-webkit-scrollbar {
     opacity: 1;
   }
 }
+header {
+  position: relative;
+  top: 0;
+  z-index: 1;
+  margin: auto;
+  background-color: darkmagenta;
+  width: 100%;
+}
 
+footer {
+  position: sticky;
+  margin: auto;
+  padding: 10% auto;
+  bottom: 0;
+  z-index: 1;
+  background-color: darkmagenta;
+  width: 100%;
+}
 /* Colors animation */
+/* Attribution */
+.attribution {
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 1cqh;
+  text-align: center;
+  margin-top: 20px;
+  color: white;
+  font-weight: bold;
+}
 a:hover {
-  color: var(--purple);
+  color: white;
   font-weight: 700;
+  text-shadow: 1ch;
+}
+a {
+  color: red;
+  text-decoration: none;
 }
 
 /* Colors */
@@ -125,14 +149,6 @@ p {
 h1,
 h2 {
   font-weight: 700;
-}
-
-/* Attribution */
-.attribution {
-  text-align: center;
-  margin-top: 20px;
-  color: lightblue;
-  font-weight: bold;
 }
 
 /* Features */
@@ -162,16 +178,6 @@ h2 {
   height: auto;
   opacity: 0.9;
   display: flex;
-}
-
-.chrono {
-  position: relative;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 2rem;
-  color: red;
-  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 /* Responsive Design */
