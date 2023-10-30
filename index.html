@@ -11,42 +11,44 @@
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200&display=swap" rel="stylesheet" />
   </head>
   <body>
-<!-- Header -->
-<header role="banner" class="layer">
-  <!-- Carousel -->
-  <div class="carousel">
-    <img class="carousel-item" src="./design/desktop-preview.jpg" alt="QR code" />
-    <img class="carousel-item" src="./design/mobile-design.jpg" alt="QR code mobile" />
-  </div>
+    <!-- Header -->
+    <header role="banner" class="layer">
+      <!-- Chrono -->
+      <div class="chrono"></div>
+      <!-- Carousel -->
+      <div class="carousel">
+        <img class="carousel-item active" src="./design/desktop-preview.jpg" alt="QR code" />
+        <img class="carousel-item" src="./design/mobile-design.jpg" alt="QR code mobile" />
+      </div>
+      <!-- Header text -->
+      <h1 class="header-layer">
+        <span style="color: red; font-weight: bold;">DEV MODE VIEW</span>
+      </h1>
+      <!-- Responsive button -->
+      <button class="responsive-button">Switch to Mobile View</button>
+    </header>
 
-  <!-- Header text -->
-  <h1 class="header-layer">
-    QR CODE CHALLENGE <br><span style="color: red; font-weight: bold;">DEV MODE VIEW</span>
-  </h1>
-</header>
-<!-- Main -->
+    <!-- Main -->
     <main role="main">
       <div class="back-layer">
+        <div class="middle-layer">
         <div class="first-layer">
-
-          <!-- Invisible layer -->
           <article class="layer">
             <img src="./images/image-qr-code.png" alt="QR code"/>
-              <h2>
-                Improve your front-end skills by building projects
-              </h2>
-              <p>
-                Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
-              </p>
-              <br>
-            </article>
-  
-
+            <h2>
+              Improve your front-end skills by building projects
+            </h2>
+            <p>
+              Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+            </p>
+            <br>
+          </article>
+          </div>
         </div>
       </div>
     </main>
 
-  <!-- Footer -->
+    <!-- Footer -->
     <footer role="info">
       <div class="attribution">
         Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="https://ko-fi.com/kvnbbg">Kevin Marville</a>.
