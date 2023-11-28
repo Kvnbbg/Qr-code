@@ -1,243 +1,163 @@
 /* Layout */
 html {
-  font-size: 62.5%;
-  font-family: "Outfit", sans-serif;
-  margin: 0%;
-  padding: 0%;
-  display: absolute;
-  width: 100%;
-  height: 100%;
-  overflow-x: hidden;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-body {
-  background-color: white;
-  scroll-behavior: smooth;
-}
-
-img {
-  width: 100%;
-  max-width: 100%;
-  height: auto;
-  border-radius: 5%;
-}
-
-/* Hide scrollbar */
-body::-webkit-scrollbar {
-  display: none;
-}
-
-/* Layers */
-.back-layer {
-  margin: auto;
-  width: 100%;
-  background-color: var(--white);
-  position: relative;
-  height: auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  border-radius: 1%;
-}
-
-.middle-layer {
-  background-color: var(--light-gray);
-  border-radius: 1%;
-  height: auto;
-  width: 300px;
-  padding: 15% 100% 15% 100%;
-  margin: 20% auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.first-layer {
-  background-color: var(--white);
-  z-index: auto;
-  border-radius: 5%;
-  height: auto;
-  width: 50px;
-  padding: 15px;
-  margin-top: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-/* Slide animation */
-.first-layer {
-  animation: slideIn 3s ease-in-out;
-}
-@keyframes slideIn {
-  0% {
-    transform: translateY(-100%);
-    opacity: 0;
+    font-family: "Outfit", sans-serif;
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
   }
-
-  100% {
-    transform: translateY(0);
-    opacity: 1;
+  
+  body {
+    background-color: white;
+    scroll-behavior: smooth;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
   }
-}
-header {
-  position: relative;
-  top: 0;
-  z-index: 1;
-  margin: auto;
-  background-color: darkmagenta;
-  width: 100%;
-}
-
-footer {
-  position: sticky;
-  margin: auto;
-  padding: 10% auto;
-  bottom: 0;
-  z-index: 1;
-  background-color: darkmagenta;
-  width: 100%;
-}
-/* Colors animation */
-/* Attribution */
-.attribution {
-  font-family: Arial, Helvetica, sans-serif;
-  letter-spacing: 1cqh;
-  text-align: center;
-  margin-top: 20px;
-  color: white;
-  font-weight: bold;
-}
-a:hover {
-  color: white;
-  font-weight: 700;
-  text-shadow: 1ch;
-}
-a {
-  color: red;
-  text-decoration: none;
-}
-
-/* Colors */
-:root {
-  --white: hsl(0, 0%, 100%);
-  --light-gray: hsl(212, 45%, 89%);
-  --blue: hsl(210, 100%, 50%);
-  --grayish-blue: hsl(212, 33%, 89%);
-  --purple: hsl(255, 100%, 69%);
-}
-
-/* Font */
-h3,
-h4,
-h5,
-h6,
-p {
-  font-weight: 400;
-}
-
-h1,
-h2 {
-  font-weight: 700;
-}
-
-/* Features */
-/* Carousel */
-.carousel {
-  position: relative;
-  width: 100%;
-  height: auto;
-  overflow: hidden;
-  margin-top: 20px;
-}
-
-.carousel-item {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  opacity: 0;
-  transition: opacity 0.1s ease-in-out;
-}
-
-.carousel-item.active {
-  opacity: 0.9;
-  position: relative;
-  width: 100%;
-  height: auto;
-  opacity: 0.9;
-  display: flex;
-}
-
-/* Responsive Design */
-@media (min-width: 375px) {
-  html {
-    font-size: 75%;
+  
+  img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 5%;
   }
-}
-
-@media (min-width: 768px) {
-  html {
-    font-size: 87.5%;
+  
+  /* Hide scrollbar */
+  body::-webkit-scrollbar {
+    display: none;
   }
-}
-
-@media (min-width: 1024px) {
-  html {
-    font-size: 100%;
-  }
-}
-
-@media (min-width: 1440px) {
+  
+  /* Layers */
   .back-layer {
-    padding: 15% 15% 15% 15%;
-    margin: 10% auto;
-    width: 90%;
-  }
-
-  .first-layer {
+    margin: auto;
     width: 100%;
-    margin: 10% auto;
-    max-width: 1440px;
+    background-color: var(--white);
+    position: relative;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 1%;
   }
-}
-
-@media (max-width: 374px) {
-  .back-layer,
-  .first-layer {
-    padding: 15% 15% 15% 15%;
-    margin: 10% auto;
-    width: 90%;
+  
+  .middle-layer {
+    background-color: var(--light-gray);
+    border-radius: 1%;
+    height: auto;
+    width: 300px;
+    padding: 15% 100% 15% 100%;
+    margin: 20% auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
   }
-
+  
   .first-layer {
+    background-color: var(--white);
+    z-index: auto;
+    border-radius: 5%;
+    height: auto;
+    width: 50px;
+    padding: 15px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  header {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    margin: auto;
     width: 100%;
-    margin: 10% auto;
-    max-width: 375px;
   }
-}
-
-@media (min-width: 375px) and (max-width: 1439px) {
-  .back-layer {
-    padding: 15% 15% 15% 15%;
-    margin: 10% auto;
-    width: 90%;
+  
+  main {
+    position: fixed;
   }
-
-  .first-layer {
+  
+  footer {
+    position: fixed;
+    margin: auto;
+    padding: 10% auto;
+    bottom: 0;
+    z-index: 1;
     width: 100%;
-    margin: 10% auto;
-    max-width: 1440px;
   }
-}
+  /* Colors animation */
+  a:hover {
+    color: --white;
+    font-weight: 700;
+    text-shadow: 1ch;
+  }
+  a {
+    color: --darkblue;
+    text-decoration: none;
+  }
+  
+  /* Colors */
+  :root {
+    --white: hsl(0, 0%, 100%);
+    --light-gray: hsl(212, 45%, 89%);
+    --grayish-blue: hsl(220, 15%, 55%);
+    --darkblue: hsl(218, 44%, 22%);
+  }
+  
+  /* Font */
+  p {
+    font-size: 16px;
+  }
+  h1,
+  h2 {
+    font-weight: 700;
+  }
+  
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    font-weight: 400;
+  }
+  
+  /* Responsive Design */
+  @media (min-width: 375px) {
+    html {
+      font-size: 75%;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    html {
+      font-size: 87.5%;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    html {
+      font-size: 100%;
+    }
+  }
+  
+  @media (min-width: 1440px) {
+    .back-layer {
+      padding: 15% 15% 15% 15%;
+      margin: 10% auto;
+      width: 90%;
+    }
+  
+    .first-layer {
+      width: 100%;
+      margin: 10% auto;
+      max-width: 1440px;
+    }
+  }
