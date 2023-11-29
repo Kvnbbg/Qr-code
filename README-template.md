@@ -34,7 +34,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://kvnbbg.github.io/Qr-code/](https://kvnbbg.github.io/Qr-code/)
 
 ## My process
 
@@ -42,12 +42,6 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 - Semantic HTML5 markup
 - CSS custom properties
-- Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
 
 ### What I learned
 
@@ -86,9 +80,9 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
+- Website - [Add your name here](https://kvnbbg.fr)
 - Frontend Mentor - [@kvnbbg](https://www.frontendmentor.io/profile/kvnbbg)
-- Twitter - [@kvnbbg](https://www.twitter.com/kvnbbg)
+- Instagram - [@kvnbbg](https://www.instagram.com/kvnbbgnew)
 
 ## Acknowledgments
 

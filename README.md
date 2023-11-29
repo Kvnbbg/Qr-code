@@ -1,63 +1,97 @@
-# Frontend Mentor - QR code component
+# Frontend Mentor - QR Code Component Solution
 
-![Design preview for the QR code component coding challenge](./design/desktop-preview.jpg)
+This project is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H), aimed at enhancing coding skills through practical projects.
 
-## Welcome! 👋
+## Table of Contents
 
-Thanks for checking out this front-end coding challenge.
+- [Overview](#overview)
+- [Screenshots](#screenshots)
+- [Links](#links)
+- [Project Details](#project-details)
+  - [Challenge](#challenge)
+  - [Design Files](#design-files)
+- [Building the Project](#building-the-project)
+  - [Process](#process)
+  - [Tools Used](#tools-used)
+  - [Learnings](#learnings)
+  - [Areas for Improvement](#areas-for-improvement)
+  - [Helpful Resources](#helpful-resources)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
-[Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
+## Overview
 
-**To do this challenge, you need a basic understanding of HTML and CSS.**
+### Screenshots
 
-## The challenge
+![QR Code Component](./screenshot.jpg)
 
-Your challenge is to build out this QR code component and get it looking as close to the design as possible.
+### Links
 
-You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
+- [Solution URL](https://your-solution-url.com)
+- [Live Site URL](https://kvnbbg.github.io/Qr-code/)
 
-Want some support on the challenge? [Join our community](https://www.frontendmentor.io/community) and ask questions in the **#help** channel.
+## Project Details
 
-## Where to find everything
+### Challenge
 
-Your task is to build out the project to the designs inside the `/design` folder. You will find both a mobile and a desktop version of the design.
+The challenge was to replicate the QR code component design as closely as possible using HTML and CSS, focusing on implementing the design details from provided static JPG files.
 
-The designs are in JPG static format. Using JPGs will mean that you'll need to use your best judgment for styles such as `font-size`, `padding` and `margin`.
+### Design Files
 
-If you would like the design files (we provide Sketch & Figma versions) to inspect the design in more detail, you can [subscribe as a PRO member](https://www.frontendmentor.io/pro).
+The design files for both mobile and desktop versions are located in the `/design` folder. Assets necessary for the project are in the `/images` folder, while style guide details are available in `style-guide.md`.
 
-You will find all the required assets in the `/images` folder. The assets are already optimized.
+## Building the Project
 
-There is also a `style-guide.md` file containing the information you'll need, such as color palette and fonts.
+### Process
 
-## Building your project
+The project was initiated as a public repository on GitHub to facilitate code sharing and collaboration. It was structured using HTML5 markup and styled using CSS custom properties. The workflow involved:
 
-Feel free to use any workflow that you feel comfortable with. Below is a suggested process, but do not feel like you need to follow these steps:
+1. Understanding the design layout from the provided files.
+2. Writing structured HTML content before adding styles.
+3. Implementing base styles for fonts, sizes, and content layout.
+4. Step-by-step styling from top to bottom, ensuring completion of each section before moving forward.
 
-1. Initialize your project as a public repository on [GitHub](https://github.com/). Creating a repo will make it easier to share your code with the community if you need help. If you're not sure how to do this, [have a read-through of this Try Git resource](https://try.github.io/).
-2. Configure your repository to publish your code to a web address. This will also be useful if you need some help during a challenge as you can share the URL for your project with your repo URL. There are a number of ways to do this, and we provide some recommendations below.
-3. Look through the designs to start planning out how you'll tackle the project. This step is crucial to help you think ahead for CSS classes to create reusable styles.
-4. Before adding any styles, structure your content with HTML. Writing your HTML first can help focus your attention on creating well-structured content.
-5. Write out the base styles for your project, including general content styles, such as `font-family` and `font-size`.
-6. Start adding styles to the top of the page and work down. Only move on to the next section once you're happy you've completed the area you're working on.
+### Tools Used
 
-## Deploying your project
+- Semantic HTML5 markup
+- CSS custom properties
 
-As mentioned above, there are many ways to host your project for free. Our recommended hosts are:
+### Learnings
 
-- [GitHub Pages](https://pages.github.com/)
-- [Vercel](https://vercel.com/)
-- [Netlify](https://www.netlify.com/)
+The primary learning from this project was deploying the website for free, along with reinforcing HTML and CSS skills. Here are snippets of code I found noteworthy:
 
-You can host your site using one of these solutions or any of our other trusted providers. [Read more about our recommended and trusted hosts](https://medium.com/frontend-mentor/frontend-mentor-trusted-hosting-providers-bf000dfebe).
+```html
+<h1>Some HTML code I'm proud of</h1>
+```
 
-## Create a custom `README.md`
+```css
+.proud-of-this-css {
+  color: papayawhip;
+}
+```
 
-We strongly recommend overwriting this `README.md` with a custom one. We've provided a template inside the [`README-template.md`](./README-template.md) file in this starter code.
+```js
+const proudOfThisFunc = () => {
+  console.log("🎉");
+};
+```
 
-The template provides a guide for what to add. A custom `README` will help you explain your project and reflect on your learnings. Please feel free to edit our template as much as you like.
+### Areas for Improvement
 
-Once you've added your information to the template, delete this file and rename the `README-template.md` file to `README.md`. That will make it show up as your repository's README file.
+Continued focus on refining HTML/CSS skills and exploring more advanced concepts in future projects.
+
+### Helpful Resources
+
+- [CSS Documentation](https://developer.mozilla.org/en-US/docs/Web/CSS) - Valuable resource for XYZ reason.
+- [Google Fonts](https://fonts.google.com/specimen/Outfit) - Enlightening article that aided in understanding XYZ concept.
+
+## Author
+
+- Website - [Author's Website](https://kvnbbg.fr)
+- Frontend Mentor - [@kvnbbg](https://www.frontendmentor.io/profile/kvnbbg)
+- Instagram - [@kvnbbg](https://www.instagram.com/kvnbbgnew)
+
+---
 
 ## Submitting your solution
 
