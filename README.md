@@ -27,7 +27,7 @@ This project is a solution to the [QR code component challenge on Frontend Mento
 
 ### Links
 
-- [Solution URL](https://your-solution-url.com)
+- [Solution URL](https://www.frontendmentor.io/solutions/qr-master-fast-code-generator-s3RZDcsxVp)
 - [Live Site URL](https://kvnbbg.github.io/Qr-code/)
 
 ## Project Details
