@@ -23,10 +23,6 @@ html {
   
   /* Layers */
   .back-layer {
-    margin: auto;
-    width: 100%;
-    height: 80%;
-    background-color: red;
   }
   
   .middle-layer {
