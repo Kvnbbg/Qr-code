@@ -57,6 +57,47 @@ html {
     align-items: center;
     text-align: center;
   }
+  /* Add these styles for the space effect and timer animation */
+.footer-space {
+  display: inline-block;
+  position: relative;
+  animation: space-effect 5s linear infinite;
+}
+
+@keyframes space-effect {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.attribution p {
+  position: relative;
+  overflow: hidden;
+}
+
+.attribution p::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, transparent, #fff, transparent);
+  animation: slide 10s linear infinite;
+}
+
+@keyframes slide {
+  0% {
+    left: -100%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
   /* Colors animation */
   a:hover {
     color: var(--white);
